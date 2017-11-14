@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 ivedimas", "04 ivedimas"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-1 uzduotis", "1-1 uzduotis\1-1 uzduotis.csproj", "{34306710-BAB6-4EF0-B795-537CD383980F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-1 uzduotis", "2-1 uzduotis\2-1 uzduotis.csproj", "{81FD7F24-9C15-41D5-A853-FF671594966E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{34306710-BAB6-4EF0-B795-537CD383980F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34306710-BAB6-4EF0-B795-537CD383980F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34306710-BAB6-4EF0-B795-537CD383980F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81FD7F24-9C15-41D5-A853-FF671594966E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FD7F24-9C15-41D5-A853-FF671594966E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FD7F24-9C15-41D5-A853-FF671594966E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FD7F24-9C15-41D5-A853-FF671594966E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{34306710-BAB6-4EF0-B795-537CD383980F} = {1D99D11A-A0E6-4C32-89A7-ED28BC9969B9}
+		{81FD7F24-9C15-41D5-A853-FF671594966E} = {F831FC98-A3A7-4864-8F3E-1AB56C082773}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDD2308A-F90F-49EF-86E2-FA097C0C354D}
