@@ -63,6 +63,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-3 uzduotis", "5-3 uzduoti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-4 uzduotis", "5-4 uzduotis\5-4 uzduotis.csproj", "{73E22F0B-C0E2-42B0-A6C4-F7D889EBA49A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 else if", "06 else if", "{91443202-0DAA-4448-9EE0-B8539302D216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-2 uzduotis", "6-2 uzduotis\6-2 uzduotis.csproj", "{1B654485-D4AD-4E99-86D1-54E0E61E0D4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +173,10 @@ Global
 		{73E22F0B-C0E2-42B0-A6C4-F7D889EBA49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73E22F0B-C0E2-42B0-A6C4-F7D889EBA49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73E22F0B-C0E2-42B0-A6C4-F7D889EBA49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B654485-D4AD-4E99-86D1-54E0E61E0D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B654485-D4AD-4E99-86D1-54E0E61E0D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B654485-D4AD-4E99-86D1-54E0E61E0D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B654485-D4AD-4E99-86D1-54E0E61E0D4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,6 +207,7 @@ Global
 		{42730FD7-3B08-453D-B6D7-F6FC85F09490} = {0E17C20F-6908-4A9E-A1C5-2571AEF0301A}
 		{35E7A436-222D-4097-BE0F-0388104E8AA4} = {0E17C20F-6908-4A9E-A1C5-2571AEF0301A}
 		{73E22F0B-C0E2-42B0-A6C4-F7D889EBA49A} = {0E17C20F-6908-4A9E-A1C5-2571AEF0301A}
+		{1B654485-D4AD-4E99-86D1-54E0E61E0D4D} = {91443202-0DAA-4448-9EE0-B8539302D216}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDD2308A-F90F-49EF-86E2-FA097C0C354D}
