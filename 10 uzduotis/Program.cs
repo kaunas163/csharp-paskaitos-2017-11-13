@@ -38,7 +38,7 @@ namespace _10_uzduotis
             var visuPajamos = perDienaDuonosKepalu * pardavimoKaina;
             var pelnas = visuPajamos - visuSavikaina;
 
-            Console.WriteLine("visu savikaina: " + savikaina);
+            Console.WriteLine("visu savikaina: " + visuSavikaina);
             Console.WriteLine("pajamos: " + visuPajamos);
             Console.WriteLine("pelnas: " + pelnas);
 
