@@ -87,6 +87,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 tarpine", "10 tarpine", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 uzduotis", "10 uzduotis\10 uzduotis.csproj", "{504F36DF-1BF7-4028-97A7-D587CD2246E0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 ciklas for", "11 ciklas for", "{45AA1B43-3DA3-4540-AA19-F89563E89183}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
