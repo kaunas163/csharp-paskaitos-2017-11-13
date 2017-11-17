@@ -91,6 +91,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 ciklas for", "11 ciklas 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 pavyzdys", "11 pavyzdys\11 pavyzdys.csproj", "{8CEE4CBA-116B-45C8-82ED-76C2690BCAEA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 ciklas while", "12 ciklas while", "{5B9A7CFA-AEFA-47F5-B7B6-24C7338B421B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-3 uzduotis", "12-3 uzduotis\12-3 uzduotis.csproj", "{32FBF05E-5649-46E9-BF85-8EEA0A721F19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -229,6 +233,10 @@ Global
 		{8CEE4CBA-116B-45C8-82ED-76C2690BCAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CEE4CBA-116B-45C8-82ED-76C2690BCAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CEE4CBA-116B-45C8-82ED-76C2690BCAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FBF05E-5649-46E9-BF85-8EEA0A721F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FBF05E-5649-46E9-BF85-8EEA0A721F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FBF05E-5649-46E9-BF85-8EEA0A721F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FBF05E-5649-46E9-BF85-8EEA0A721F19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -267,6 +275,7 @@ Global
 		{E63AB181-304C-4F8D-B718-82780A9F4DD7} = {5CFFAFE0-8B3F-404D-AABC-9DF269AEDC12}
 		{504F36DF-1BF7-4028-97A7-D587CD2246E0} = {C0864C4C-CCBC-4D5B-8D8E-78E2257011B4}
 		{8CEE4CBA-116B-45C8-82ED-76C2690BCAEA} = {45AA1B43-3DA3-4540-AA19-F89563E89183}
+		{32FBF05E-5649-46E9-BF85-8EEA0A721F19} = {5B9A7CFA-AEFA-47F5-B7B6-24C7338B421B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDD2308A-F90F-49EF-86E2-FA097C0C354D}
