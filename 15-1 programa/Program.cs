@@ -11,6 +11,14 @@ namespace _15_1_programa
         static void Main(string[] args)
         {
             List<double> atlyginimai = new List<double>();
+            var programa = new Program();
+            programa.Ivedimas(atlyginimai);
+            programa.Isvedimas(atlyginimai);
+
+            Console.WriteLine("Mažiausia alga: " + programa.MaziausiaAlga(atlyginimai));
+            Console.WriteLine("Didžiausia alga: " + programa.DidziausiaAlga(atlyginimai));
+            Console.WriteLine("Vidutinė alga: " + programa.VidutineAlga(atlyginimai));
+            Console.WriteLine("Daugiau už vidurkį: " + programa.DaugiauUzVidurki(atlyginimai));
         }
 
         public void Ivedimas(List<double> atlyginimai)
@@ -29,5 +37,58 @@ namespace _15_1_programa
                 atlyginimai.Add(Convert.ToDouble(Console.ReadLine()));
             }
         }
+
+        public void Isvedimas(List<double> atlyg)
+        {
+            foreach (var atl in atlyg)
+            {
+                Console.Write("[{0}] ", atl);
+            }
+
+            Console.WriteLine();
+        }
+
+        public double MaziausiaAlga(List<double> atlyginimai)
+        {
+            return atlyginimai.Min();
+        }
+
+        public double DidziausiaAlga(List<double> atlyginimai)
+        {
+            return atlyginimai.Max();
+        }
+
+        public double VidutineAlga(List<double> atlyginimai)
+        {
+            return atlyginimai.Average();
+        }
+
+        // randame kiek algų yra daugiau už vidurkį
+
+        public int DaugiauUzVidurki(List<double> atlyginimai)
+        {
+            var vidurkis = VidutineAlga(atlyginimai);
+            var kiekis = 0;
+
+            foreach (var atlyginimas in atlyginimai)
+            {
+                if (atlyginimas > vidurkis)
+                {
+                    kiekis++;
+                }
+            }
+
+            return kiekis;
+        }
+
+        // rasti kiek algų buvo virš 1500 €
+
+
+
+        // rasti tris didžiausias algas
+
+
+
+        // rasti penktą didžiausią algą
     }
 }
