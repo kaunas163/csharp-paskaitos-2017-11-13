@@ -19,6 +19,9 @@ namespace _15_1_programa
             Console.WriteLine("Didžiausia alga: " + programa.DidziausiaAlga(atlyginimai));
             Console.WriteLine("Vidutinė alga: " + programa.VidutineAlga(atlyginimai));
             Console.WriteLine("Daugiau už vidurkį: " + programa.DaugiauUzVidurki(atlyginimai));
+
+            Console.WriteLine("Daugiau už 1500: " + programa.KiekDaugiauUzX(atlyginimai, 1500));
+            Console.WriteLine("Daugiau už vidurkį: " + programa.KiekDaugiauUzX(atlyginimai, atlyginimai.Average()));
         }
 
         public void Ivedimas(List<double> atlyginimai)
@@ -83,7 +86,20 @@ namespace _15_1_programa
 
         // rasti kiek algų buvo virš 1500 €
 
+        public int KiekDaugiauUzX(List<double> atlyginimai, double daugiauUz)
+        {
+            var kiekis = 0;
 
+            foreach (var atlyg in atlyginimai)
+            {
+                if (atlyg > daugiauUz)
+                {
+                    kiekis++;
+                }
+            }
+
+            return kiekis;
+        }
 
         // rasti tris didžiausias algas
 
