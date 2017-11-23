@@ -51,6 +51,7 @@ namespace _16_Studentas
             Console.WriteLine();
 
             Console.WriteLine("Visų pažymių vidurkis: " + Math.Round(Vidurkis(), 2));
+            Console.WriteLine("Didžiausias pažymys: " + DidziausiasPazymys());
         }
 
         public double Vidurkis()
