@@ -86,7 +86,6 @@ namespace _16_Parduotuve
 
             Console.WriteLine("Mažiausias kiekis:");
             MaziausiasKiekis().Isvedimas();
-
             /*var maziausiaskiekis = MaziausiasKiekis();
             maziausiaskiekis.Isvedimas();*/
         }
