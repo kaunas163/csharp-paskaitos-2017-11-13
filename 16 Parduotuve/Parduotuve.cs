@@ -156,5 +156,20 @@ namespace _16_Parduotuve
 
             return suma;
         }
+
+        public Preke MaziausiasKiekis()
+        {
+            var maziausias = Prekes[0];
+
+            foreach (var preke in Prekes)
+            {
+                if (preke.Kiekis < maziausias.Kiekis)
+                {
+                    maziausias = preke;
+                }
+            }
+
+            return maziausias;
+        }
     }
 }
