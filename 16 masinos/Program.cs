@@ -65,7 +65,7 @@ namespace _16_masinos
         // rasyti metodus:
         //  seniausias automobilis
         //  didziausios galios automobilis
-        //  kuris automobilis nuvaziaves maziausiai
+        //  maziausiai nuvaziaves automobilis
 
     } // class Program pabaiga
 }
