@@ -83,6 +83,12 @@ namespace _16_Parduotuve
             Console.WriteLine("Skaičiavimai:");
             Console.WriteLine("Visų prekių kainų suma: " + KainuSuma());
             Console.WriteLine("Visų prekių savikainų suma: " + SavikainuSuma());
+
+            Console.WriteLine("Mažiausias kiekis:");
+            MaziausiasKiekis().Isvedimas();
+
+            /*var maziausiaskiekis = MaziausiasKiekis();
+            maziausiaskiekis.Isvedimas();*/
         }
 
         public void SuvestiPrekes()
