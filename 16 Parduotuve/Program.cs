@@ -10,6 +10,8 @@ namespace _16_Parduotuve
     {
         static void Main(string[] args)
         {
+            var parduotuve1 = new Parduotuve("Visciuku imperija", "Baravyku karalyste");
+            parduotuve1.Isvedimas();
         }
     }
 }
