@@ -33,5 +33,15 @@ namespace _16_Parduotuve
             Console.WriteLine("Prekė galioja iki: " + GaliojimoLaikas);
             Console.WriteLine();
         }
+
+        public double PelnasIsPrekes()
+        {
+            return Kaina - Savikaina;
+        }
+
+        public double PelnasPardavusVisaKieki()
+        {
+            return PelnasIsPrekes() * Kiekis;
+        }
     }
 }
