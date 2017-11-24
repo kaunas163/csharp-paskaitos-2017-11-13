@@ -16,6 +16,9 @@ namespace _17_pavyzdziai
 
             var policininkas = new Policininkas("afb", "sjdbg", 30, 600, 1, 100, 20);
             policininkas.Isvedimas();
+
+            var gaisrininkas = new Gaisrininkas("aaa", "bbb", 25, 700, 0.75, 15);
+            gaisrininkas.Isvedimas();
         }
     }
 }
