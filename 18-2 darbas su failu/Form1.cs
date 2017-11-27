@@ -58,8 +58,16 @@ namespace _18_2_darbas_su_failu
                         var darbuotojas = new Darbuotojas(vardas, pavarde, amzius, pareigos, alga);
                         Darbuotojai.Add(darbuotojas);
                     }
+
+                    dataGridView1.DataSource = Darbuotojai;
                 }
             }
+        }
+
+        private void skaiciuotiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var forma = new SkaiciavimaiForma(Darbuotojai);
+            forma.ShowDialog();
         }
     }
 }

@@ -61,6 +61,7 @@
             this.skaiciuotiToolStripMenuItem.Name = "skaiciuotiToolStripMenuItem";
             this.skaiciuotiToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
             this.skaiciuotiToolStripMenuItem.Text = "Skaiciuoti";
+            this.skaiciuotiToolStripMenuItem.Click += new System.EventHandler(this.skaiciuotiToolStripMenuItem_Click);
             // 
             // iseiiToolStripMenuItem
             // 
